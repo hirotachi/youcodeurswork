@@ -80,7 +80,7 @@ class Job {
     +string position
     +string contract
     +List~string~ tags
-    +boolean remote
+    +boolean isRemote
     +Contract contract
     +string description
     +string responsibilities
