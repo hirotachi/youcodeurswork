@@ -26,6 +26,7 @@ class Instructor{
     +string firstName
     +string lastName
     +string email
+    +string avatar
     -int groupdId
     +getGroup()
 }
@@ -34,6 +35,7 @@ class Student {
     -int id
     +string firstName
     +string lastName
+    +string avatar
     +string email
     +getProjects()
 }
@@ -45,6 +47,7 @@ class Project{
     +List~string~ technologies
     +List~string~ tags
     -int authorId
+    +List~string~images
     -int instructor
     -Status status
     +string repoLink
